@@ -19,7 +19,8 @@ body {
 }
 
 .nav-container,
-.hero-container {
+.hero-container,
+.card-container {
     width: 90%;
 }
 
@@ -71,4 +72,23 @@ button {
     padding: 20px 50px;
     border-style: none;
     border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin-top: -100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
