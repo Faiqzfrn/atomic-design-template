@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background: #c4c4c4
 }
 
 .container {
@@ -91,4 +92,8 @@ button {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.card-text {
+    width: 40%;
 }
